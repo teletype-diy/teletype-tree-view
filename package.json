@@ -1,0 +1,25 @@
+{
+  "name": "teletype-tree-view",
+  "main": "./lib/teletype-tree-view",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "teletype-tree-view:toggle"
+  },
+  "repository": "https://github.com/teletype-diy/teletype-tree-view",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "teletype": {
+      "versions": {
+        "0.0.1": "consumeTeletype"
+      }
+    }
+}
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle teletype-tree-view",
+        "command": "teletype-tree-view:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "teletype-tree-view",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "teletype-tree-view:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
