@@ -13,6 +13,20 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "configSchema": {
+    "remoteOpenFilePolicy": {
+      "title": "Remote Peers open Files Policy",
+      "description": "What should happen if a remote peer tries to open a remote file in their tree-view",
+      "type": "string",
+      "enum": [
+        {"value": "ask", "description": "Ask for every remote request"},
+        {"value": "allow", "description": "Allow all remote requests inside project"},
+        {"value": "deny", "description": "Deny all remote requests"}
+      ],
+      "default": "ask",
+      "order": 1
+    }
+  },
   "dependencies": {
   },
   "consumedServices": {
